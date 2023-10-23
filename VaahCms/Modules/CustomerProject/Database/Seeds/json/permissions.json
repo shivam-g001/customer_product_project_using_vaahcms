@@ -1,0 +1,34 @@
+[
+
+    {
+        "name": "Has Access of Dashboard",
+        "module": "CustomerProject",
+        "section": "User",
+        "details": "This will allow user to see the link of dashboard."
+    },
+    {
+        "name": "can read only",
+        "module": "CustomerProject",
+        "section": "customers",
+        "details": "This will allow user to see the link of dashboard."
+    },
+    {
+        "name": "can create customer",
+        "module": "CustomerProject",
+        "section": "customers",
+        "details": "This will allow user to create customer only."
+    },
+    {
+        "name": "can update customer",
+        "module": "CustomerProject",
+        "section": "customers",
+        "details": "This will allow user to update customer."
+    },
+
+    {
+        "name": "Can Delete Customers",
+        "module": "CustomerProject",
+        "section": "customers",
+        "details": "This will allow user to delete anything in the registration section."
+    }
+]

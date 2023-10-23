@@ -1,0 +1,43 @@
+[
+    {
+        "slug": "send-welcome-email-for-using-platform",
+        "via": "mail",
+        "sort": 0,
+        "key": "subject",
+        "value": "Welcome Email"
+    },
+    {
+        "slug": "send-welcome-email-for-using-platform",
+        "via": "mail",
+        "sort": 1,
+        "key": "from",
+        "meta": {
+            "name": "#!ENV:MAIL_FROM_NAME!#"
+        },
+        "value": "#!ENV:MAIL_FROM_ADDRESS!#"
+    },
+    {
+        "slug": "send-welcome-email-for-using-platform",
+        "via": "mail",
+        "sort": 2,
+        "key": "line",
+        "value": "Hello #!USER:NAME!#"
+    },
+    {
+        "slug": "send-welcome-email-for-using-platform",
+        "via": "backend",
+        "sort": 0,
+        "key": "content",
+        "value": "Lorem ipsum #!ENV:APP_NAME!#. Thanks!"
+    },
+    {
+        "slug": "send-welcome-email-for-using-platform",
+        "via": "backend",
+        "sort": 1,
+        "key": "action",
+        "value": "Click",
+        "meta": {
+            "action":"#!ROUTE:VH.VERIFICATION!#"
+        }
+    }
+]

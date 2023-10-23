@@ -1,0 +1,44 @@
+{
+    "name": "webreinvent/laravel-nestable",
+    "type": "library",
+    "description": "Laravel 8 nested categories library",
+    "version": "0.0.3",
+    "homepage": "https://github.com/webreinvent",
+    "keywords": ["nested","nestable","nestedset","category","laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebReinvent",
+            "email": "we@webreinvent.com",
+            "homepage": "https://www.webreinvent.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "orchestra/testbench": "~3.0",
+        "orchestra/database": "~3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nestable\\": "src/",
+            "Nestable\\Tests\\": "tests/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nestable\\NestableServiceProvider"
+            ],
+            "aliases": {
+                "Nestable": "Nestable\\Facades\\NestableService"
+            }
+        }
+    }
+}

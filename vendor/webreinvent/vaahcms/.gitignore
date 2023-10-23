@@ -1,0 +1,7 @@
+.git/
+.idea/
+vendor/
+node_modules/
+npm-debug.log
+package-lock.json
+/Resources/assets/backend/hot

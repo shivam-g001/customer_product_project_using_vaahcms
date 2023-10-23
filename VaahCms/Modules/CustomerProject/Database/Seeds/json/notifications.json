@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Send Welcome Email For Using Platform",
+        "via_mail": 1,
+        "via_sms": 0,
+        "via_push": 0,
+        "via_backend": 1,
+        "via_frontend": 0
+    }
+]
