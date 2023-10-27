@@ -23,7 +23,7 @@ let customer = null;
 const mapSlugToId = () => {
     const selectedSlug = store.item.customer_slug;
     const customer = store.assets.customer_data.find((c) => c.slug === selectedSlug);
-    
+
 
     if (customer) {
         store.item.customer_id = customer.id;
